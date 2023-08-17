@@ -1,5 +1,11 @@
 # Face-Recognition-system
 To design a system that identifies and recongises face
+
+Main.pyib contains main file code to preproess,augment data and also to desgin a model that helps in recongizing face.
+
+Camera.py helps interface with camerma to help create datasets for the CNN model.
+
+Face.py the main program that helps in accessing camera and recongnize the face present.
 Steps
 1. Creating the datasets(Taking 100 Images)
 2. Cropping only the face
